@@ -1,0 +1,46 @@
+
+#first-row {
+    background-color: #098f8f;
+    color: #FF8F8F;
+}
+
+#first-row:hover {
+    background-color: #FF8F8F;
+    color: #098f8f;
+}
+
+#second-row {
+    background-color: #f5f509;
+    color: #00F509;
+}
+
+#second-row:hover {
+    background-color: #00F509;
+    color: #f5f509;
+}
+
+.flag-block {
+    float: left;
+    margin-left: 30px;
+    width: 125px;
+    height: 75px;
+    border: 1px solid black;
+}
+
+.flag-round {
+    background-color: red;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+.with-position {
+    position: relative;
+    left: 40px;
+    top: 15px;
+}
+
+.with-transform {
+    transform: translate(40px, 15px);
+}
