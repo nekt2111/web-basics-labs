@@ -1,0 +1,102 @@
+.parent__float {
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.float_block1 {
+    width: 75%;
+    height: 10%;
+    background-color: dodgerblue;
+    float: right;
+}
+
+.float_block2 {
+    width: 25%;
+    height: 90%;
+    background-color: limegreen;
+    float: left;
+}
+
+.float_block3 {
+    background-color: yellow;
+    width: 50%;
+    float: left;
+    height: 80%;
+}
+
+.float_block4 {
+    background-color: mediumpurple;
+    float: right;
+    height: 90%;
+    width: 25%;
+}
+
+.float_block5 {
+    float: left;
+    background-color: #FF8F8F;
+    width: 75%;
+    height: 10%;
+}
+
+.parent__flex {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.top_flex_block {
+    background-color: red;
+    display: flex;
+    flex: 1 0 10%;
+}
+
+.top_first_block {
+    background-color: limegreen;
+    flex: 1 0 25%;
+}
+
+.top_second_block {
+    background-color: dodgerblue;
+    flex: 1 0 75%;
+}
+
+.mid_flex_block {
+    background-color: black;
+    flex: 1 0 80%;
+    display: flex;
+}
+
+.mid_first_block {
+    background-color: limegreen;
+    flex: 1 0 25%;
+}
+
+.mid_second_block {
+    background-color: yellow;
+    flex: 1 0 50%;
+}
+
+.mid_third_block {
+    background-color: mediumpurple;
+    flex: 1 0 25%;
+}
+
+
+.bot_flex_block {
+    background-color: gray;
+    flex: 1 0 10%;
+    display: flex;
+}
+
+.bot_first_block {
+    background-color: #FF8F8F;
+    flex: 1 0 75%;
+}
+
+.bot_second_block {
+    background-color: mediumpurple;
+    flex: 1 0 25%;
+}
