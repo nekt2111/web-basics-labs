@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lab5</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div>
+    <h2 style="text-align: center">Форма</h2>
+    <form>
+        <div class="from-input-with-label">
+            <label>П.І.Б</label>
+            <input placeholder="ТТТТТТ Т.Т." id="pib">
+        </div>
+        <div class="from-input-with-label">
+            <label>Варіант</label>
+            <input placeholder="ЧЧ" id="variant">
+        </div>
+        <div class="from-input-with-label">
+            <label>Група</label>
+            <input placeholder="ТТ-ЧЧ" id="group">
+        </div>
+        <div class="from-input-with-label">
+            <label>Факультет</label>
+            <input placeholder="ТТТТ" id="faculty">
+        </div>
+        <div class="from-input-with-label">
+            <label>Дата народження</label>
+            <input placeholder="ЧЧ.ЧЧ.ЧЧЧЧ" id="birthDate">
+        </div>
+        <button id="submitBtn">Відправити</button>
+    </form>
+    <div id="sentData">
+        <h2 style="text-align: center">Відправлені дані</h2>
+        <div>
+            <span><b>П.І.Б:  </b></span><span id="sent-pib"></span>
+        </div>
+        <div>
+            <span><b>Варіант:  </b></span><span id="sent-variant"></span>
+        </div>
+        <div>
+            <span><b>Група:  </b></span><span id="sent-group"></span>
+        </div>
+        <div>
+            <span><b>Факультет:  </b></span><span id="sent-faculty"></span>
+        </div>
+        <div>
+            <span><b>Дата народження:  </b></span><span id="sent-birthDate"></span>
+        </div>
+    </div>
+</div>
+
+<input id="colorInput" type="color">
+<div id="square">
+</div>
+
+</body>
+<script src="script.js"></script>
+</html>
