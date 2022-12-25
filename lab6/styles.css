@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, serif;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #f30000;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    display: block;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.users-list {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.user-card {
+    text-align: center;
+}
+
+.user-picture {
+    height: 100px;
+    width: 100px;
+}
+
