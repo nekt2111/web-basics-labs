@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+    gap: 20px;
+}
+
+.from-input-with-label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    width: 250px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border: 1px solid black;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    width: 250px;
+    height: 50px;
+    border-radius: 50px;
+    transition: 1s;
+}
+
+#square {
+    display: flex;
+    flex-wrap: wrap;
+    width: 260px;
+    height: 100px;
+}
+
+.square_element {
+    border:1px solid;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
