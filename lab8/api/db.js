@@ -3,10 +3,10 @@ const { Pool } = require('pg');
 class Database {
   constructor() {
     this.config = {
-      user: 'igorgulyaschy',
-      host: 'localhost',
-      database: 'lab8',
-      password: process.env.PASSWORD,
+      user: 'nnepeput',
+      host: 'surus.db.elephantsql.com',
+      database: 'nnepeput',
+      password: '23UCgzDMLjbTQMw29zHlJmvQNaQmHJ3I',
       port: 5432,
     };
 

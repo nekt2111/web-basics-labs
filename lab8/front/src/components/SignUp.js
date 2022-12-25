@@ -21,7 +21,7 @@ export const SignUp = () => {
       password: pass,
     })
     console.log(response)
-    localStorage.setItem('token', response.token)
+    localStorage.setItem('token', response.data.token)
     window.location.replace('http://localhost:3000/')
   }
 

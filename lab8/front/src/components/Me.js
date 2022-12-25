@@ -1,6 +1,11 @@
 import { useEffect, useState } from 'react'
 import axios from '../api/axios'
 
+function exit() {
+  localStorage.removeItem('token');
+  window.location.replace('http://localhost:3000');
+}
+
 export const Me = () => {
   const [user, setUser] = useState({})
   const fetchUser = async (token) => {
@@ -26,6 +31,7 @@ export const Me = () => {
     <div className="auth-form-container">
       <h2>Hello</h2>
       <h2>{user.fname} {user.lname}</h2>
+      <button onClick={exit}>Exit</button>
     </div>
   )
 }
